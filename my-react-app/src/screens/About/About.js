@@ -1,11 +1,11 @@
 import "./About.css";
-import profilepic from "./screens/About/profilepic.jpg"
+import pic from "./profilepic.jpg"
 
 
 function About() {
   return (
     <div id="aboutme" className="aboutme-container">
-      <img src={ profilepic} alt="aboutme"/>
+      <img src ={process.env.PUBLIC_URL + pic} alt="aboutme"/>
       <div>
         <h1>About</h1>
         <p>I am driven to learn and apply expertise to solve challenging problems and teach others. </p>
