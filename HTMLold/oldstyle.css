@@ -1,0 +1,241 @@
+header {
+  
+    width: 100%;
+    color:#ffffff;
+    font-size: 30px;
+   
+    object-fit: cover;
+        width: 100vw;
+        height: 300px;
+        position: fixed;
+        top: 0;
+        left: 0;
+  }
+  
+
+  ul {
+    
+    line-height: 500px;
+    color: #ffffff;
+    padding:0px 20px;
+    mix-blend-mode:luminosity;
+  float:right;
+    
+
+  }
+
+  a{
+    /* Sets display to inline */
+    display: inline-flex;
+    list-style-type:none;
+    font-size: 20px;
+    padding:0px 20px;
+    font-weight: 800;
+    cursor: pointer; 
+    mix-blend-mode: luminosity;
+    color:#ffffff;
+      }
+      a:hover {
+        color: #45a049;
+      }
+
+      video {
+        object-fit: cover;
+        width: 100vw;
+        height: 300px;
+        position: fixed;
+        top: 0;
+        left: 0;
+  
+      }
+      .overlay h1 {
+        font-size: 30px;
+        font-weight: 800;
+        color:#ffffff;
+        text-align: top;
+        mix-blend-mode: luminosity;
+        position:fixed;
+        margin:50px;
+
+      }
+
+      .sections {
+       
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 30rem;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      .links-container {
+        display: flex;
+        justify-content: space-between;
+        
+      }
+
+      .image{
+        width: 270px;
+        margin: 500px 0px 100px 100px;
+        float: left;
+        display: flex;
+        flex-direction: column;
+         
+      }
+
+.profile{
+
+  padding: 50px;
+  display: flex;
+  flex-wrap:wrap;
+  font-family:'Times New Roman', Times, serif;
+  align-items:center;
+
+font-size: medium;
+  margin: 10px 100px 50px 400px;
+  flex-direction: column;
+}
+
+p{
+  padding: 10px;
+  font-size: 20px;
+}
+.h2{
+  margin-top: 400px;
+  text-align: center;
+  font-size: 180%;
+  font-family: serif;
+}
+.h3{
+ margin-top: 400px;
+  font-size: 180%;
+  font-family: serif;
+  text-align: center;
+}
+.h4{
+  margin-top: 400px;
+  text-align: center;
+  font-size: 180%;
+  font-family: serif;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #040aaa;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  flex: 4;
+  padding: 80px;
+  text-align: center;
+  margin-top: 350px;
+  font-size: 20px;
+}
+
+.products {
+  flex: 4;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top:100px;
+  font-size: 180%;
+}
+.card{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 20px;
+  flex: 0 0 300px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 40px; 
+}
+
+
+
+/* Added border-radius to match the card */
+.card header {
+  border-radius: 50px 50px 0px 0px;
+  padding: 20px;
+}
+
+.card p {
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius:50px;
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+    width: 100%;
+   
+  }
+}
+
+.thumbnail { 
+  top:-50px; 
+  left:-35px; 
+  display:block; 
+  z-index:999; 
+  cursor: pointer; 
+  -webkit-transition-property: all; 
+  -webkit-transition-duration: 0.3s; 
+  -webkit-transition-timing-function: ease; 
+  } 
+
+  .thumbnail:hover { 
+    transform: scale(1); 
+    
+    }
+    .card:hover { 
+      transform: scale(1.5); 
+      
+      }
+      footer {
+    
+      bottom: 15px;
+      font-size:13px;
+      position:fixed;
+      right:700px; 
+     
+    }
