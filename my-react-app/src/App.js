@@ -1,9 +1,6 @@
 import "./App.css";
-import About from "./screens";
-import Landing from "./screens";
-import Contact from "./screens";
-import Portfolio from "./screens/Portfolio";
-import Navbar from "./screens/Navbar";
+
+import Navbar from "./screens/Navbar/Navbar";
 
 // svgrepo.com
 
@@ -11,10 +8,6 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Landing />
-      <About />
-      <Portfolio />
-      <Contact />
     </div>
   );
 }
