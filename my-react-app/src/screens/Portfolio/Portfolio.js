@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Portfolio.css";
 import { projects } from "./projects.js";
-import { Modal } from "./Modal.js";
+import  Modal from "../components/Modal/Modal.js";
 
 function Portfolio() {
   const [currentIdx, setCurrentIdx] = useState(null);
