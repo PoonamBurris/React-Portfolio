@@ -1,5 +1,5 @@
-import Typewritter from "./screens/components/Typewritter/Typewritter"
-import AnimatedBackground from "./screens/components/AnimatedBackground/AnimatedBackground";
+import  Typewritter from "../components/Typewritter/Typewritter";
+import  AnimatedBackground from "../components/AnimatedBackground/AnimatedBackground";
 
 import "./Landing.css"
 
