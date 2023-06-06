@@ -17,12 +17,14 @@ let msgArray = [
 
 function Landing() {
   return (
-    <AnimatedBackground>
-      <div className="landing-type">
+    <div id="home">
+    <AnimatedBackground >
+      <div  className="landing-type">
         <div>What am I?</div>
         <Typewritter data={msgArray} />
       </div>
     </AnimatedBackground>
+    </div>
   );
 }
 
