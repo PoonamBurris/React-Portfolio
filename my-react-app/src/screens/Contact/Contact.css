@@ -7,3 +7,18 @@
   letter-spacing: 1px;
   font-size: 1.2rem;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+}
+
+section h1 {
+  text-align: center;
+}
+
+form textarea, form input {
+  margin: 3px 0;
+}

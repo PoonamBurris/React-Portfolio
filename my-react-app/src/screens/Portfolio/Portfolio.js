@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Portfolio.css";
-import { projects } from "./projects.js";
+import projects from "./projects.json";
 import  Modal from "../components/Modal/Modal.js";
 
 function Portfolio() {
@@ -17,6 +17,9 @@ function Portfolio() {
         className="profolio-projects-frame"
       >
         <img src={project.image} alt={project.title} />
+        <h1>{project.title}</h1>
+        <button><a href={projects.liveUrl}>Live</a></button>
+        <button><a href={projects.repoUrl}>Repo</a></button>
       </div>
     );
   });

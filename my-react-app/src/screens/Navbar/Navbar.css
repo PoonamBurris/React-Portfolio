@@ -25,7 +25,12 @@ p {
   --dark-accent: #333;
   --dark-shades: #232824;
 }
-
+.navbar-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
 @media screen and (max-width: 768px) {
   :root {
     --page-padding: 1rem 2rem;
