@@ -4,7 +4,7 @@
   gap: var(--gap);
   justify-content: center;
   align-items: center;
-  
+  margin-top: 20%;
 }
 
 .aboutme-container img {
@@ -13,4 +13,22 @@
   height: 500px;
   border-radius: 50%;
   box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.2);
+}
+
+.landing-type {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: var(--light-shades);
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+  backdrop-filter: blur(10px);
 }

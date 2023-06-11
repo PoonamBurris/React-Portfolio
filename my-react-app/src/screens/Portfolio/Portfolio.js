@@ -29,10 +29,10 @@ function Portfolio() {
   return (
     <div id="portfolio" className="portfolio-container">
       <h1>Portfolio</h1>
-      <p>
+      <p id="pid">
         This is my github page{" "}
-        <a href="https://www.google.com" target="_blank" rel="noreferrer">
-          https://somewhere.net
+        <a href="https://github.com/PoonamBurris" target="_blank" rel="noreferrer">
+        https://github.com/PoonamBurris
         </a>
       </p>
       <div className="portfolio-grid">

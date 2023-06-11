@@ -34,7 +34,7 @@ function Typewritter({ data = [], TypeSpeed = 100, MsgDelay = 2000}) {
       let id = document.getElementById("typing-text");
       if (CharacterPos !== data[MsgIndex].length) {
         MsgBuffer = MsgBuffer + data[MsgIndex].charAt(CharacterPos);
-        id.value = MsgBuffer + "_";
+        id.value = MsgBuffer;
         delay = TypeSpeed;
       } else {
         delay = MsgDelay;

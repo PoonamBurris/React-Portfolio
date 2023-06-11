@@ -1,18 +1,35 @@
 [
+  
   {
-    "title": "KPI",
-    "description": "Key performance indicator",
-    "image":"https://picsum.photos/900",
-    "url": "https://picsum.photos/900",
-    "liveUrl": "example.com",
-    "repoUrl": "example.com"
+    "title": "ArtiScapes",
+    "description": "ArtiScapes is a web application that allows users to generate random, royalty-free landscape images to view for entertainment, inspiration, artistry practice and educational teaching. Potential locations to display a random high quality photo that falls under the category of “landscape.” ",
+    "image":"./assets/ArtiScapes.png",
+    "url":"https://bjthompson12.github.io/Sea-Wolves/",
+    "liveUrl": "https://bjthompson12.github.io/Sea-Wolves/",
+    "repoUrl": "https://github.com/PoonamBurris/Sea-Wolves.git"
   },
   {
-    "title": "ABC",
-    "description": "About Bacon Cheese",
-    "image":"./assets/Scaleup.jpeg",
-    "url": "https://picsum.photos/900",
-    "liveUrl": "example.com",
-    "repoUrl": "example.com"
+    "title": "Teacher-Sync",
+    "description": "A full-stack application that allows teachers to log in to track their students' grades, attendance, and conduct for a school week.",
+    "image":"./assets/Teacher-Sync.png",
+    "url": "https://secret-coast-72135.herokuapp.com/",
+    "liveUrl": "https://secret-coast-72135.herokuapp.com/",
+    "repoUrl": "https://github.com/PoonamBurris/teacher-sync.git"
+  },
+  {
+    "title": "Book Finder",
+    "description": "This application lets a user to search for new books to read. They can save or delete the books on their account which they would like to purchased in future.",
+    "image":"./assets/Book Finder.png",
+    "url": "https://bookfinder-mern.herokuapp.com/",
+    "liveUrl": "https://bookfinder-mern.herokuapp.com/",
+    "repoUrl": "https://github.com/PoonamBurris/MERN-Book-Finder.git"
+  },
+  {
+    "title": "Weather Dashboard",
+    "description": "This application lets user search for current weather of any city in the world and also gives forcast of next five days of same city. It displays searched city on screen.",
+    "image":"./assets/Weather dashboard.png",
+    "url": "https://poonamburris.github.io/Global-Weather-Dashboard/",
+    "liveUrl": "https://poonamburris.github.io/Global-Weather-Dashboard/",
+    "repoUrl": "https://github.com/PoonamBurris/Global-Weather-Dashboard.git"
   }
 ]
