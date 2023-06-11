@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   gap: var(--gap);
+  margin-top: 10%;
 }
 
 .profolio-projects-frame img {
@@ -24,4 +25,15 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: var(--gap);
   justify-items: center;
+}
+button{
+  border-radius: 12px;
+ width: 40%;
+ height: 10%;
+ color: white;
+ background-color: rgb(168, 100, 232);
+}
+#pid{
+  font-size: 20px;
+  
 }
