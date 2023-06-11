@@ -20,6 +20,10 @@ p {
   --dark-accent: #333;
   --dark-shades: #232824;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -70,5 +74,23 @@ p {
   }
   100% {
     transform: rotateX(0deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --page-padding: 1rem 2rem;
+  }
+  .navbar-container {
+    flex-direction: column;
+    gap: var(--gap);
+  }
+
+  .navbar-links-container {
+    flex-direction: column;
+  }
+
+  .aboutme-container {
+    flex-direction: column;
   }
 }

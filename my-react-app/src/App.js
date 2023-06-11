@@ -3,7 +3,7 @@ import { BrowserRouter as Switch, Router, Route } from "react-router-dom"
 
 import Navbar from "./screens/Navbar/Navbar";
 import Landing from "./screens/Landing/Landing";
-import About from "./screens/About/About";
+import About from "./screens/About/About.js";
 import Portfolio from "./screens/Portfolio/Portfolio.js";
 import Contact from "./screens/Contact/Contact";
 
