@@ -1,4 +1,5 @@
 # React-Portfolio
+My journey from dabbler to doer.
 
 ## Table of contents
 
@@ -7,6 +8,7 @@
 - [Questions](#Questions)
 
 ## Links
+https://poonamburris.github.io/React-Portfolio/
 
 ## Screenshots
 <img width="953" alt="React portfolio" src="https://github.com/PoonamBurris/React-Portfolio/assets/119805763/6a57c672-4da2-47da-989a-63945489d952">
